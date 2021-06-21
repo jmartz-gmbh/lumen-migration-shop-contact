@@ -17,7 +17,7 @@ class UpdateContact extends Migration
     public function up()
     {
         if(Schema::hasTable($this->tablename)) {
-            Schema::table('users', function (Blueprint $table) {
+            Schema::table($this->tablename, function (Blueprint $table) {
                 $table->string('website');
             });
         }
