@@ -5,10 +5,10 @@ namespace App\Providers;
 use Illuminate\Support\ServiceProvider;
 
 /**
- * Class ShopMigrationProvider
+ * Class ShopContactMigrationProvider
  * @package App\Providers
  */
-class ContactMigrationProvider extends ServiceProvider
+class ShopContactMigrationProvider extends ServiceProvider
 {
     /**
      * Register any application services.
